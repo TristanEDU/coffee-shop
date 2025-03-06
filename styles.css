@@ -1,0 +1,65 @@
+:root {
+  background-color: rgb(41, 22, 22);
+}
+
+header {
+  display: flex;
+  align-items: center; /* Align items vertically */
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 300px; /* Adjust to match your design */
+  background: transparent;
+}
+
+.header-container {
+  display: flex;
+  align-items: center; /* Aligns everything on the same vertical line */
+  justify-content: center;
+  width: 100%; /* Controls overall spacing */
+  max-width: 1000px; /* Prevents excessive stretching */
+}
+
+#Logo {
+  width: 250px; /* Adjust if needed */
+}
+
+.nav-wrapper {
+  display: flex;
+  gap: 70px; /* Adjust for positioning */
+}
+
+.nav-wrapper a {
+  color: white;
+  font-size: 30px;
+}
+
+.Home-section {
+  background-image: url(Assets/Backgrounds/OkyJDK-3857927810.jpg);
+  background-size: cover;
+  
+}
+
+h3,
+h2 {
+  color: white;
+  text-align: center;
+}
+
+h2 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+hr {
+  height: 5px;
+  width: 15%;
+  background: black;
+  border: none;
+}
+
