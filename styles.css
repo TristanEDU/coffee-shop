@@ -4,29 +4,29 @@
 
 header {
   display: flex;
-  align-items: center; /* Align items vertically */
+  align-items: center;
   justify-content: center;
   text-align: center;
   width: 100%;
-  height: 300px; /* Adjust to match your design */
+  height: 300px;
   background: transparent;
 }
 
 .header-container {
   display: flex;
-  align-items: center; /* Aligns everything on the same vertical line */
+  align-items: center;
   justify-content: center;
-  width: 100%; /* Controls overall spacing */
-  max-width: 1000px; /* Prevents excessive stretching */
+  width: 100%;
+  max-width: 1000px;
 }
 
 #Logo {
-  width: 250px; /* Adjust if needed */
+  width: 250px;
 }
 
 .nav-wrapper {
   display: flex;
-  gap: 70px; /* Adjust for positioning */
+  gap: 70px;
 }
 
 .nav-wrapper a {
