@@ -1,32 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Meddon&display=swap');
+
 :root {
   background-color: rgb(41, 22, 22);
 }
 
 header {
   display: flex;
-  align-items: center; /* Align items vertically */
+  align-items: center;
   justify-content: center;
   text-align: center;
   width: 100%;
-  height: 300px; /* Adjust to match your design */
+  height: 300px;
   background: transparent;
 }
 
 .header-container {
   display: flex;
-  align-items: center; /* Aligns everything on the same vertical line */
+  align-items: center;
   justify-content: center;
-  width: 100%; /* Controls overall spacing */
-  max-width: 1000px; /* Prevents excessive stretching */
+  width: 100%;
+  max-width: 1000px;
 }
 
 #Logo {
-  width: 250px; /* Adjust if needed */
+  width: 250px;
 }
 
 .nav-wrapper {
   display: flex;
-  gap: 70px; /* Adjust for positioning */
+  gap: 70px;
 }
 
 .nav-wrapper a {
@@ -37,6 +39,9 @@ header {
 .Home-section {
   background-image: url(Assets/Backgrounds/OkyJDK-3857927810.jpg);
   background-size: cover;
+  background-position: bottom, center;
+  height: 100vh;
+  
   
 }
 
@@ -59,7 +64,40 @@ h3 {
 hr {
   height: 5px;
   width: 15%;
-  background: black;
+  background: rgb(253, 143, 0);
   border: none;
 }
+
+ .inspiration {
+  background: none;
+  position: absolute;
+  top: 80%;
+  padding: 20%;
+  color: black;
+  font-family: Meddon;
+  font-size: 50px;
+  font-weight: 900;
+  text-align: center;
+  height: 30vh;
+  overflow: hidden; /* Prevents blurring from expanding */
+} 
+
+
+body,
+html {
+  height: 100%;
+}
+
+.parallax {
+  background: url(Assets/Backgrounds/coffee_swirl.jpg);
+  height: 80vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: -1;
+  filter: blur(10px);
+}
+
 
